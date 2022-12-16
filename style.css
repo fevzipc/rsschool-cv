@@ -88,8 +88,20 @@ html {
 /*--------------------*/
 body{
 	font-family: 'Roboto';
-	min-height: 100vh;
-	margin: 0; padding: 0;
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header {
+	background: linear-gradient(to bottom, rgba(205,215,221,1) 1%,rgba(240,242,244,1) 88%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdd7dd', endColorstr='#f0f2f4',GradientType=0 ); /* IE6-9 */
+
+}
+.main {
+	min-height: 85%;
+	background: linear-gradient(135deg, rgba(247,247,247,1) 0%,rgba(234,234,234,1) 37%,rgba(218,218,218,1) 48%,rgba(239,239,239,1) 66%,rgba(255,255,255,1) 91%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 .container {
 	max-width: 1440px;
@@ -98,10 +110,12 @@ body{
 .nav-list {
 	list-style: none;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;
 }
 .nav-link {
+	text-transform: capitalize;
+	color: 	#696969;
 	transition: .3s;
   padding: 0 20px;
   line-height: 50px;
@@ -114,4 +128,28 @@ body{
   width: 50%;
 }
 .header {
+	height: 50px;
+	background-color: #18b;
+}
+.footer {
+	height: 100px;
+	background: #898989;
+}
+.footter__container {
+	display: flex;
+	justify-content: center;
+}
+.rsschool {
+	padding: 10px 0 0 0;
+}
+.rsschool__img-rss {
+	max-width: 80px;
+}
+.rsschool__img-git {
+	max-width: 80px;
+}
+.footer__self {
+	text-align: center;
+	font-size: 14px;
+	color: #E0FFFF;
 }
