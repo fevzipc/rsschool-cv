@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap"); /*Обнуление*/
+@font-face {
+  font-family: 'Roboto';
+  src: url("assets/fonts/RobotoThin.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("assets/fonts/RobotoRegular.ttf");
+  font-weight: 300;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 20px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+/*--------------------*/
+body{
+	font-family: 'Roboto';
+	min-height: 100vh;
+	margin: 0; padding: 0;
+}
+.container {
+	max-width: 1440px;
+  margin: 0 auto;
+}
+.nav-list {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.nav-link {
+	transition: .3s;
+  padding: 0 20px;
+  line-height: 50px;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section {
+  width: 50%;
+}
+.header {
+}
