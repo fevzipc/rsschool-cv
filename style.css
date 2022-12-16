@@ -144,9 +144,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdd7dd', end
 }
 .rsschool__img-rss {
 	max-width: 80px;
+	opacity: 0.7;
+}
+.rsschool__img-rss:hover {
+	opacity: 1;
 }
 .rsschool__img-git {
 	max-width: 80px;
+	opacity: 0.7;
+}
+.rsschool__img-git:hover {
+	opacity: 1;
 }
 .footer__self {
 	text-align: center;
