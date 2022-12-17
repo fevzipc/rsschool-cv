@@ -123,124 +123,64 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdd7dd', end
 .nav-link:hover {
 	color: 	#FF0000;
 }
+.main {
+	margin: 0 auto;
+}
+.container {
+}
 .main-container {
- 
+	width: 70%;
+	display: flex;
+	margin: 0 auto;
+}
+.section__left {
+	width: 41%;
+	padding: 20px 0 0 0;
+	border: 5px dashed #696969;
 }
 .section {
-  width: 50%;
+	text-align: center;
+	padding: 5px 0 5px 5px;
 }
-.main__general {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	flex-wrap: nowrap;
+.section-title{
+	font-size: 17px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
-.main__general-left {
-	border:5px dashed #696969;
-	display: flex;
-	flex-direction: column;
-	max-width: 20%;
-
+.section-title__header {
+	color: #898989;
+	font-size: 22px;
+	text-align: center;
 }
 .general__avatar {
 	position: relative;
-	top: 20px;
-	left: 41px;
-	max-width: 70%;
-	border: 2px solid #696969;
+	top: 10px;
+	width: 70%;
 	border-radius: 50%;
+	border: 2px solid #E0FFFF;
 }
-.main__general-right {
-	width: 50%;
-
-}
-.general__contacts {
+.section-title__contacts{
 	overflow: hidden;
- 	word-wrap:break-word;
-}
-.contacts__about {
-	padding: 50px 0 0 0;
-	text-transform: uppercase;
-	text-align: center;
-	font-weight: 700
-
-}
-.contacts__e-mail {
-	font-size: 20px;
-}
-.main__languages {
-	text-align: center;
-	font-weight: 700;
-	padding: 50px 0 0 0;
+	word-wrap: break-word;
 }
 .languages__english {
-	font-weight: 100;
 }
 .languages__ukraine {
-	font-weight: 100;
 }
-.main__general-right {
+.section__right {
+	width: 75%;
+	padding: 20px 0 0 20px;
 }
-.about {
-	padding: 20px 0 0 0;
-	text-align: center;
-	font-weight: 700;
+.section-title__skills {
 	text-transform: uppercase;
 }
-.about__me {
-	padding: 10px 0 0 0;
-	text-align: justify;
-	text-transform: none;
-	font-weight: 100;
+.section-title__code {
+	padding: 5px 0 0 0;
+	width: 95%;
 }
-.skills {
-	padding: 20px 0 0 0;
-	text-align: center;
-	font-weight: 700;
-	text-transform: uppercase;
+.section-title__courses {
 }
-.skills__my {
-	padding: 10px 0 0 0;
-	text-transform: none;
-	font-weight: 100;
-	text-transform: uppercase;
-}
-.code {
-	padding: 20px 0 0 0;
-	text-align: center;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-.code__my {
-	opacity: 0.5;
-	padding: 10px 0 0 0;
-	max-width: 100%;
-}
-.code__my:hover {
-	opacity: 1;
-}
-
-.courses {
-	padding: 20px 0 0 0;
-	text-align: center;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-.courses__my {
-	padding: 10px 0 0 0;
-	text-transform: none;
-	font-weight: 100;
-}
-.education {
-	padding: 20px 0 50px 0;
-	text-align: center;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-.education__my {
-	padding: 10px 0 0 0;
-	text-transform: none;
-	font-weight: 100;
+.section-title__education {
 }
 .footer {
 	padding: 20px 0 0 0;
